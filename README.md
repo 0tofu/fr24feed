@@ -26,7 +26,7 @@ FR24FEED_NTP_SERVER="example.com"
 ```yaml
 services:
   fr24feed:
-    image: otofu/fr24feed:latest
+    image: ghcr.io/0tofu/fr24feed:latest
     restart: unless-stopped
     environment:
       BEASTHOST: "${BEASTHOST}"
