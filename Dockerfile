@@ -1,6 +1,6 @@
 FROM debian:bookworm-slim AS builder
 
-ARG FR24_VER=1.0.48-0
+ARG FR24_VER=1.0.51-0
 
 RUN \
   --mount=type=cache,target=/var/lib/apt,sharing=locked \
